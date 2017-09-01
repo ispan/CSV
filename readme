@@ -1,0 +1,3 @@
+ver 1.9.3
+in case of an empty value in CSV file to avoid nullPointException we check variables ( vasaN and pontunarN ) if they are equal to null and
+replacing them with 9999, and 999999 accordingly .
